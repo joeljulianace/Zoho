@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="10" failed="0" total="12" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Zoho_CRM" duration-ms="173588" started-at="2016-08-28T02:59:58Z" finished-at="2016-08-28T03:02:52Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="172357" started-at="2016-08-28T02:59:58Z" finished-at="2016-08-28T03:02:51Z">
+      <class name="com.qtpselenium.zoho.project.testcases.LoginTest">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LoginTest@16022d9d]" name="start" is-config="true" duration-ms="9" started-at="2016-08-28T08:29:58Z" finished-at="2016-08-28T08:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LoginTest@16022d9d]" name="initialize" is-config="true" duration-ms="5" started-at="2016-08-28T08:29:59Z" finished-at="2016-08-28T08:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.qtpselenium.zoho.project.testcases.LoginTest@16022d9d]" name="doLogin" duration-ms="157727" started-at="2016-08-28T08:29:59Z" data-provider="getData" finished-at="2016-08-28T08:32:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=joel.julian86@yahoo.com, ExpectedResult=Pass, Password=1ronM@iden, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LoginTest@16022d9d]" name="tearDown" is-config="true" duration-ms="13844" started-at="2016-08-28T08:32:37Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.qtpselenium.zoho.project.testcases.LoginTest@16022d9d]" name="doLogin" duration-ms="1" started-at="2016-08-28T08:32:51Z" data-provider="getData" finished-at="2016-08-28T08:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=joel.julian86@yahoo.com, ExpectedResult=Fail, Password=xxxxxxxx, Runmode=N, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping as test data run is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping as test data run is No
+	at com.qtpselenium.zoho.project.testcases.LoginTest.doLogin(LoginTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LoginTest@16022d9d]" name="initialize" is-config="true" duration-ms="0" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LoginTest@16022d9d]" name="tearDown" is-config="true" duration-ms="51" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qtpselenium.zoho.project.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Lead Test" duration-ms="676" started-at="2016-08-28T03:02:51Z" finished-at="2016-08-28T03:02:52Z">
+      <class name="com.qtpselenium.zoho.project.testcases.LeadTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="initialize" is-config="true" duration-ms="3" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="create()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="create" is-config="true" duration-ms="0" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="SKIP" signature="createLeadTest(java.util.Hashtable)[pri:1, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="createLeadTest" duration-ms="1" started-at="2016-08-28T08:32:51Z" data-provider="getData" finished-at="2016-08-28T08:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LeadLastName=Khan, Runmode=Y, LeadCompany=Coke, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test as test run is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.createLeadTest(LeadTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="tearDown" is-config="true" duration-ms="40" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="create()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="create" is-config="true" duration-ms="1" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="SKIP" signature="createLeadTest(java.util.Hashtable)[pri:1, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="createLeadTest" duration-ms="0" started-at="2016-08-28T08:32:51Z" data-provider="getData" finished-at="2016-08-28T08:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LeadLastName=Prabhakar, Runmode=Y, LeadCompany=Microsoft, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test as test run is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.createLeadTest(LeadTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="tearDown" is-config="true" duration-ms="40" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="createLeadTest(java.util.Hashtable)[pri:1, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="createLeadTest" duration-ms="1" started-at="2016-08-28T08:32:51Z" data-provider="getData" finished-at="2016-08-28T08:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test as test run is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.createLeadTest(LeadTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadTest -->
+        <test-method status="PASS" signature="create()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="create" is-config="true" duration-ms="0" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="tearDown" is-config="true" duration-ms="69" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="create()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="create" is-config="true" duration-ms="1" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="SKIP" signature="convertLeadTest(java.util.Hashtable)[pri:2, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="convertLeadTest" duration-ms="1" started-at="2016-08-28T08:32:51Z" data-provider="getData" finished-at="2016-08-28T08:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LeadLastName=Khan, Runmode=Y, LeadCompany=Coke, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test as test run is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.convertLeadTest(LeadTest.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertLeadTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="tearDown" is-config="true" duration-ms="51" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="create()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="create" is-config="true" duration-ms="0" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="SKIP" signature="convertLeadTest(java.util.Hashtable)[pri:2, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="convertLeadTest" duration-ms="1" started-at="2016-08-28T08:32:51Z" data-provider="getData" finished-at="2016-08-28T08:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LeadLastName=Prabhakar, Runmode=Y, LeadCompany=Microsoft, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test as test run is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.convertLeadTest(LeadTest.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertLeadTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="tearDown" is-config="true" duration-ms="41" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="create()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="create" is-config="true" duration-ms="0" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="SKIP" signature="convertLeadTest(java.util.Hashtable)[pri:2, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="convertLeadTest" duration-ms="1" started-at="2016-08-28T08:32:51Z" data-provider="getData" finished-at="2016-08-28T08:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test as test run is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.convertLeadTest(LeadTest.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertLeadTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="tearDown" is-config="true" duration-ms="135" started-at="2016-08-28T08:32:51Z" finished-at="2016-08-28T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="deleteLeadAccountTest(java.util.Hashtable)[pri:3, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="deleteLeadAccountTest" duration-ms="1" started-at="2016-08-28T08:32:52Z" data-provider="getDeleteLeadData" finished-at="2016-08-28T08:32:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LeadLastName=Singh, Runmode=Y, LeadCompany=Colgate, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test as test run is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.deleteLeadAccountTest(LeadTest.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLeadAccountTest -->
+        <test-method status="PASS" signature="create()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="create" is-config="true" duration-ms="0" started-at="2016-08-28T08:32:52Z" finished-at="2016-08-28T08:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="tearDown" is-config="true" duration-ms="36" started-at="2016-08-28T08:32:52Z" finished-at="2016-08-28T08:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="create()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="create" is-config="true" duration-ms="1" started-at="2016-08-28T08:32:52Z" finished-at="2016-08-28T08:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="tearDown" is-config="true" duration-ms="49" started-at="2016-08-28T08:32:52Z" finished-at="2016-08-28T08:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="deleteLeadAccountTest(java.util.Hashtable)[pri:3, instance:com.qtpselenium.zoho.project.testcases.LeadTest@543e710e]" name="deleteLeadAccountTest" duration-ms="0" started-at="2016-08-28T08:32:52Z" data-provider="getDeleteLeadData" finished-at="2016-08-28T08:32:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LeadLastName=Singh, Runmode=N, LeadCompany=Xerox, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test as test run is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.deleteLeadAccountTest(LeadTest.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLeadAccountTest -->
+      </class> <!-- com.qtpselenium.zoho.project.testcases.LeadTest -->
+    </test> <!-- Lead Test -->
+    <test name="Potential Test" duration-ms="152" started-at="2016-08-28T03:02:52Z" finished-at="2016-08-28T03:02:52Z">
+      <class name="com.qtpselenium.zoho.project.testcases.PotentialTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.qtpselenium.zoho.project.testcases.PotentialTest@17baae6e]" name="initialize" is-config="true" duration-ms="1" started-at="2016-08-28T08:32:52Z" finished-at="2016-08-28T08:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="createPotentialTest(java.util.Hashtable)[pri:1, instance:com.qtpselenium.zoho.project.testcases.PotentialTest@17baae6e]" name="createPotentialTest" duration-ms="5" started-at="2016-08-28T08:32:52Z" data-provider="getData" finished-at="2016-08-28T08:32:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PotentialName=Moody, Runmode=Y, AccountName=Pinnacle, ClosingDate=23/09/2016, Stage=Needs Analysis, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test as test run is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.PotentialTest.createPotentialTest(PotentialTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPotentialTest -->
+        <test-method status="PASS" signature="create()[pri:0, instance:com.qtpselenium.zoho.project.testcases.PotentialTest@17baae6e]" name="create" is-config="true" duration-ms="0" started-at="2016-08-28T08:32:52Z" finished-at="2016-08-28T08:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qtpselenium.zoho.project.testcases.PotentialTest@17baae6e]" name="tearDown" is-config="true" duration-ms="69" started-at="2016-08-28T08:32:52Z" finished-at="2016-08-28T08:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qtpselenium.zoho.project.testcases.PotentialTest@17baae6e]" name="tearDown" is-config="true" duration-ms="34" started-at="2016-08-28T08:32:52Z" finished-at="2016-08-28T08:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="deletePotentialAccountTest()[pri:2, instance:com.qtpselenium.zoho.project.testcases.PotentialTest@17baae6e]" name="deletePotentialAccountTest" duration-ms="0" started-at="2016-08-28T08:32:52Z" finished-at="2016-08-28T08:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePotentialAccountTest -->
+        <test-method status="PASS" signature="create()[pri:0, instance:com.qtpselenium.zoho.project.testcases.PotentialTest@17baae6e]" name="create" is-config="true" duration-ms="0" started-at="2016-08-28T08:32:52Z" finished-at="2016-08-28T08:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+      </class> <!-- com.qtpselenium.zoho.project.testcases.PotentialTest -->
+    </test> <!-- Potential Test -->
+  </suite> <!-- Zoho_CRM -->
+</testng-results>

@@ -1,0 +1,15 @@
+Start hub server->
+java -Dwebdriver.chrome.driver=E:\Selenium\chromedriver.exe -jar selenium-server-standalone-2.53.0.jar -role hub -hubConfig hub.json
+
+Node1-
+java -Dwebdriver.chrome.driver=E:\Selenium\chromedriver.exe -jar selenium-server-standalone-2.53.0.jar -role rc -nodeConfig node1.json
+
+
+Node2-
+java -Dwebdriver.chrome.driver=E:\Selenium\chromedriver.exe -jar selenium-server-standalone-2.53.0.jar -role rc -nodeConfig node2.json
+
+
+
+
+
+

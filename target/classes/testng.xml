@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Zoho_CRM">
+  <test name="Login Test" allow-return-values="true">
+    <classes>
+      <class name="com.qtpselenium.zoho.project.testcases.LoginTest"></class>
+    </classes>
+  </test>
+    <test name="Lead Test" allow-return-values="true">
+    <classes>
+      <class name="com.qtpselenium.zoho.project.testcases.LeadTest"></class>
+    </classes>
+  </test>
+    <test name="Potential Test" allow-return-values="true">
+    <classes>
+      <class name="com.qtpselenium.zoho.project.testcases.PotentialTest"></class>
+    </classes>
+  </test>
+ <!-- 
+<test name="Yahoo Mail Test">
+  <classes>
+    <class name="test.YahooTest"></class>
+  </classes>
+</test>
+
+<test name="Yahoo News Test">
+  <classes>
+    <class name="test.YahooNewsTest"></class>
+  </classes>
+  
+</test>
+
+<test name="Yahoo Registration Test">
+  <classes>
+    <class name="test.YahooRegistrationTest"></class>
+  </classes>
+</test>
+
+  <listeners>
+    <listener class-name="testng_listeners.CustomListener"/>
+  </listeners>
+  
+  <test name="Custom Listener Test">
+  <classes>
+    <class name="testng_listeners.LoginTest"></class>
+  </classes>
+</test>
+ -->
+  
+</suite>

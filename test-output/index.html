@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Zoho_CRM">
+              <span class="suite-name border-skipped">Zoho_CRM</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Zoho_CRM">
+                    <span>E:\Selenium\Zoho\DataDriven_Zoho_May2016\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Zoho_CRM">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Zoho_CRM">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Zoho_CRM">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Zoho_CRM">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Zoho_CRM">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Zoho_CRM">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,  10 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Zoho_CRM" class="hide-methods skipped suite-Zoho_CRM"> (hide)</a> <!-- hide-methods skipped suite-Zoho_CRM -->
+                      <a href="#" panel-name="suite-Zoho_CRM" class="show-methods skipped suite-Zoho_CRM"> (show)</a> <!-- show-methods skipped suite-Zoho_CRM -->
+                    </span>
+                    <div class="method-list-content skipped suite-Zoho_CRM">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoho_CRM" title="com.qtpselenium.zoho.project.testcases.LeadTest" hash-for-method="convertLeadTest({LeadLastName=Khan, Runmode=Y, LeadCompany=Coke, Browser=Chrome})">convertLeadTest({LeadLastName=Khan, Runmode=Y, LeadCompany=Coke, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoho_CRM" title="com.qtpselenium.zoho.project.testcases.LeadTest" hash-for-method="convertLeadTest({LeadLastName=Prabhakar, Runmode=Y, LeadCompany=Microsoft, Browser=Chrome})">convertLeadTest({LeadLastName=Prabhakar, Runmode=Y, LeadCompany=Microsoft, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoho_CRM" title="com.qtpselenium.zoho.project.testcases.LeadTest" hash-for-method="convertLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})">convertLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoho_CRM" title="com.qtpselenium.zoho.project.testcases.LeadTest" hash-for-method="createLeadTest({LeadLastName=Khan, Runmode=Y, LeadCompany=Coke, Browser=Chrome})">createLeadTest({LeadLastName=Khan, Runmode=Y, LeadCompany=Coke, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoho_CRM" title="com.qtpselenium.zoho.project.testcases.LeadTest" hash-for-method="createLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})">createLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoho_CRM" title="com.qtpselenium.zoho.project.testcases.LeadTest" hash-for-method="createLeadTest({LeadLastName=Prabhakar, Runmode=Y, LeadCompany=Microsoft, Browser=Chrome})">createLeadTest({LeadLastName=Prabhakar, Runmode=Y, LeadCompany=Microsoft, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoho_CRM" title="com.qtpselenium.zoho.project.testcases.PotentialTest" hash-for-method="createPotentialTest({PotentialName=Moody, Runmode=Y, AccountName=Pinnacle, ClosingDate=23/09/2016, Stage=Needs Analysis,...)">createPotentialTest({PotentialName=Moody, Runmode=Y, AccountName=Pinnacle, ClosingDate=23/09/2016, Stage=Needs Analysis,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoho_CRM" title="com.qtpselenium.zoho.project.testcases.LeadTest" hash-for-method="deleteLeadAccountTest({LeadLastName=Singh, Runmode=N, LeadCompany=Xerox, Browser=Chrome})">deleteLeadAccountTest({LeadLastName=Singh, Runmode=N, LeadCompany=Xerox, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoho_CRM" title="com.qtpselenium.zoho.project.testcases.LeadTest" hash-for-method="deleteLeadAccountTest({LeadLastName=Singh, Runmode=Y, LeadCompany=Colgate, Browser=Chrome})">deleteLeadAccountTest({LeadLastName=Singh, Runmode=Y, LeadCompany=Colgate, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoho_CRM" title="com.qtpselenium.zoho.project.testcases.LoginTest" hash-for-method="doLogin({Username=joel.julian86@yahoo.com, ExpectedResult=Fail, Password=xxxxxxxx, Runmode=N, Browser=Chrome...)">doLogin({Username=joel.julian86@yahoo.com, ExpectedResult=Fail, Password=xxxxxxxx, Runmode=N, Browser=Chrome...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Zoho_CRM -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Zoho_CRM" class="hide-methods passed suite-Zoho_CRM"> (hide)</a> <!-- hide-methods passed suite-Zoho_CRM -->
+                      <a href="#" panel-name="suite-Zoho_CRM" class="show-methods passed suite-Zoho_CRM"> (show)</a> <!-- show-methods passed suite-Zoho_CRM -->
+                    </span>
+                    <div class="method-list-content passed suite-Zoho_CRM">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoho_CRM" title="com.qtpselenium.zoho.project.testcases.PotentialTest" hash-for-method="deletePotentialAccountTest">deletePotentialAccountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Zoho_CRM" title="com.qtpselenium.zoho.project.testcases.LoginTest" hash-for-method="doLogin({Username=joel.julian86@yahoo.com, ExpectedResult=Pass, Password=1ronM@iden, Runmode=Y, Browser=Chro...)">doLogin({Username=joel.julian86@yahoo.com, ExpectedResult=Pass, Password=1ronM@iden, Runmode=Y, Browser=Chro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Zoho_CRM -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Zoho_CRM" class="panel Zoho_CRM">
+          <div class="suite-Zoho_CRM-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.zoho.project.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin({Username=joel.julian86@yahoo.com, ExpectedResult=Fail, Password=xxxxxxxx, Runmode=N, Browser=Chrome...)">
+                  </a> <!-- doLogin({Username=joel.julian86@yahoo.com, ExpectedResult=Fail, Password=xxxxxxxx, Runmode=N, Browser=Chrome...) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">({Username=joel.julian86@yahoo.com, ExpectedResult=Fail, Password=xxxxxxxx, Runmode=N, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping as test data run is No
+	at com.qtpselenium.zoho.project.testcases.LoginTest.doLogin(LoginTest.java:37)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Zoho_CRM-class-skipped -->
+          <div class="suite-Zoho_CRM-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.zoho.project.testcases.PotentialTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPotentialTest({PotentialName=Moody, Runmode=Y, AccountName=Pinnacle, ClosingDate=23/09/2016, Stage=Needs Analysis,...)">
+                  </a> <!-- createPotentialTest({PotentialName=Moody, Runmode=Y, AccountName=Pinnacle, ClosingDate=23/09/2016, Stage=Needs Analysis,...) -->
+                  <span class="method-name">createPotentialTest</span>
+                  <span class="parameters">({PotentialName=Moody, Runmode=Y, AccountName=Pinnacle, ClosingDate=23/09/2016, Stage=Needs Analysis, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.PotentialTest.createPotentialTest(PotentialTest.java:30)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Zoho_CRM-class-skipped -->
+          <div class="suite-Zoho_CRM-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.zoho.project.testcases.LeadTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="convertLeadTest({LeadLastName=Khan, Runmode=Y, LeadCompany=Coke, Browser=Chrome})">
+                  </a> <!-- convertLeadTest({LeadLastName=Khan, Runmode=Y, LeadCompany=Coke, Browser=Chrome}) -->
+                  <span class="method-name">convertLeadTest</span>
+                  <span class="parameters">({LeadLastName=Khan, Runmode=Y, LeadCompany=Coke, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.convertLeadTest(LeadTest.java:85)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="convertLeadTest({LeadLastName=Prabhakar, Runmode=Y, LeadCompany=Microsoft, Browser=Chrome})">
+                  </a> <!-- convertLeadTest({LeadLastName=Prabhakar, Runmode=Y, LeadCompany=Microsoft, Browser=Chrome}) -->
+                  <span class="method-name">convertLeadTest</span>
+                  <span class="parameters">({LeadLastName=Prabhakar, Runmode=Y, LeadCompany=Microsoft, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.convertLeadTest(LeadTest.java:85)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="convertLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})">
+                  </a> <!-- convertLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome}) -->
+                  <span class="method-name">convertLeadTest</span>
+                  <span class="parameters">({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.convertLeadTest(LeadTest.java:85)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeadTest({LeadLastName=Khan, Runmode=Y, LeadCompany=Coke, Browser=Chrome})">
+                  </a> <!-- createLeadTest({LeadLastName=Khan, Runmode=Y, LeadCompany=Coke, Browser=Chrome}) -->
+                  <span class="method-name">createLeadTest</span>
+                  <span class="parameters">({LeadLastName=Khan, Runmode=Y, LeadCompany=Coke, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.createLeadTest(LeadTest.java:31)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})">
+                  </a> <!-- createLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome}) -->
+                  <span class="method-name">createLeadTest</span>
+                  <span class="parameters">({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.createLeadTest(LeadTest.java:31)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeadTest({LeadLastName=Prabhakar, Runmode=Y, LeadCompany=Microsoft, Browser=Chrome})">
+                  </a> <!-- createLeadTest({LeadLastName=Prabhakar, Runmode=Y, LeadCompany=Microsoft, Browser=Chrome}) -->
+                  <span class="method-name">createLeadTest</span>
+                  <span class="parameters">({LeadLastName=Prabhakar, Runmode=Y, LeadCompany=Microsoft, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.createLeadTest(LeadTest.java:31)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLeadAccountTest({LeadLastName=Singh, Runmode=N, LeadCompany=Xerox, Browser=Chrome})">
+                  </a> <!-- deleteLeadAccountTest({LeadLastName=Singh, Runmode=N, LeadCompany=Xerox, Browser=Chrome}) -->
+                  <span class="method-name">deleteLeadAccountTest</span>
+                  <span class="parameters">({LeadLastName=Singh, Runmode=N, LeadCompany=Xerox, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.deleteLeadAccountTest(LeadTest.java:132)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLeadAccountTest({LeadLastName=Singh, Runmode=Y, LeadCompany=Colgate, Browser=Chrome})">
+                  </a> <!-- deleteLeadAccountTest({LeadLastName=Singh, Runmode=Y, LeadCompany=Colgate, Browser=Chrome}) -->
+                  <span class="method-name">deleteLeadAccountTest</span>
+                  <span class="parameters">({LeadLastName=Singh, Runmode=Y, LeadCompany=Colgate, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test as test run is No
+	at com.qtpselenium.zoho.project.testcases.LeadTest.deleteLeadAccountTest(LeadTest.java:132)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Zoho_CRM-class-skipped -->
+          <div class="suite-Zoho_CRM-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qtpselenium.zoho.project.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin({Username=joel.julian86@yahoo.com, ExpectedResult=Pass, Password=1ronM@iden, Runmode=Y, Browser=Chro...)">
+                  </a> <!-- doLogin({Username=joel.julian86@yahoo.com, ExpectedResult=Pass, Password=1ronM@iden, Runmode=Y, Browser=Chro...) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">({Username=joel.julian86@yahoo.com, ExpectedResult=Pass, Password=1ronM@iden, Runmode=Y, Browser=Chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Zoho_CRM-class-passed -->
+          <div class="suite-Zoho_CRM-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qtpselenium.zoho.project.testcases.PotentialTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePotentialAccountTest">
+                  </a> <!-- deletePotentialAccountTest -->
+                  <span class="method-name">deletePotentialAccountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Zoho_CRM-class-passed -->
+        </div> <!-- panel Zoho_CRM -->
+        <div panel-name="test-xml-Zoho_CRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Selenium\Zoho\DataDriven_Zoho_May2016\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Zoho_CRM&quot;&gt;
+  &lt;test name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.zoho.project.testcases.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test name=&quot;Lead Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.zoho.project.testcases.LeadTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Lead Test --&gt;
+  &lt;test name=&quot;Potential Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.zoho.project.testcases.PotentialTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Potential Test --&gt;
+&lt;/suite&gt; &lt;!-- Zoho_CRM --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Zoho_CRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Zoho_CRM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Lead Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Potential Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Zoho_CRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Zoho_CRM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Zoho_CRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Zoho_CRM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Zoho_CRM');
+function tableData_Zoho_CRM() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'doLogin')
+data.setCell(0, 2, 'com.qtpselenium.zoho.project.testcases.LoginTest')
+data.setCell(0, 3, 157727);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createPotentialTest')
+data.setCell(1, 2, 'com.qtpselenium.zoho.project.testcases.PotentialTest')
+data.setCell(1, 3, 5);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'doLogin')
+data.setCell(2, 2, 'com.qtpselenium.zoho.project.testcases.LoginTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'convertLeadTest')
+data.setCell(3, 2, 'com.qtpselenium.zoho.project.testcases.LeadTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'convertLeadTest')
+data.setCell(4, 2, 'com.qtpselenium.zoho.project.testcases.LeadTest')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createLeadTest')
+data.setCell(5, 2, 'com.qtpselenium.zoho.project.testcases.LeadTest')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'convertLeadTest')
+data.setCell(6, 2, 'com.qtpselenium.zoho.project.testcases.LeadTest')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createLeadTest')
+data.setCell(7, 2, 'com.qtpselenium.zoho.project.testcases.LeadTest')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'deleteLeadAccountTest')
+data.setCell(8, 2, 'com.qtpselenium.zoho.project.testcases.LeadTest')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'deleteLeadAccountTest')
+data.setCell(9, 2, 'com.qtpselenium.zoho.project.testcases.LeadTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createLeadTest')
+data.setCell(10, 2, 'com.qtpselenium.zoho.project.testcases.LeadTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'deletePotentialAccountTest')
+data.setCell(11, 2, 'com.qtpselenium.zoho.project.testcases.PotentialTest')
+data.setCell(11, 3, 0);
+window.suiteTableData['Zoho_CRM']= { tableData: data, tableDiv: 'times-div-Zoho_CRM'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Zoho_CRM">
+              </div> <!-- times-div-Zoho_CRM -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Zoho_CRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Zoho_CRM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Zoho_CRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Zoho_CRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.zoho.project.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin({Username=joel.julian86@yahoo.com, ExpectedResult=Pass, Password=1ronM@iden, Runmode=Y, Browser=Chro...)</span>
+                <span class="method-start">730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">158457 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">172301 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin({Username=joel.julian86@yahoo.com, ExpectedResult=Fail, Password=xxxxxxxx, Runmode=N, Browser=Chrome...)</span>
+                <span class="method-start">172301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">172302 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.zoho.project.testcases.LeadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">172695 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">172793 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createLeadTest({LeadLastName=Khan, Runmode=Y, LeadCompany=Coke, Browser=Chrome})</span>
+                <span class="method-start">172793 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">172794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">172834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createLeadTest({LeadLastName=Prabhakar, Runmode=Y, LeadCompany=Microsoft, Browser=Chrome})</span>
+                <span class="method-start">172835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">172836 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">172876 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})</span>
+                <span class="method-start">172876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">172877 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">172987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">convertLeadTest({LeadLastName=Khan, Runmode=Y, LeadCompany=Coke, Browser=Chrome})</span>
+                <span class="method-start">172988 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">172989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">173040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">convertLeadTest({LeadLastName=Prabhakar, Runmode=Y, LeadCompany=Microsoft, Browser=Chrome})</span>
+                <span class="method-start">173040 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">173041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">173082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">convertLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})</span>
+                <span class="method-start">173082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">173083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">173284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteLeadAccountTest({LeadLastName=Singh, Runmode=Y, LeadCompany=Colgate, Browser=Chrome})</span>
+                <span class="method-start">173284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">173285 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">173321 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteLeadAccountTest({LeadLastName=Singh, Runmode=N, LeadCompany=Xerox, Browser=Chrome})</span>
+                <span class="method-start">173322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">173322 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.zoho.project.testcases.PotentialTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">173435 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">173478 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createPotentialTest({PotentialName=Moody, Runmode=Y, AccountName=Pinnacle, ClosingDate=23/09/2016, Stage=Needs Analysis,...)</span>
+                <span class="method-start">173478 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">173483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">173553 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deletePotentialAccountTest</span>
+                <span class="method-start">173553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">173553 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
